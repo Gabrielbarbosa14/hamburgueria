@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #FB471E;
+    --cor2: #FAE61E;
+    --cor3: #FA782D;
+
+    --fonte-forte: "Bevan";
+    --fonte-fraca: "Roboto";
+    --fonte-sla: "Open Sans";
+}
+
+header{
+    background-image: url(../imagens/fundo-header.jpg) ;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+header img{
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+    color:var(--cor1);
+    font-family: var(--fonte-forte);
+    font-weight: normal;
+}
+
+header p{
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-fraca);
+    margin: 0px 0px 8px 0px;
+}
+
+header #horario{
+    color: white;
+    background-color: #FB471E;
+    width: 250px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+main h1{
+    text-align: center;
+    font-family: var(--fonte-sla);
+    margin-bottom: 55px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap:25px;
+}
+
+.ham1{
+    max-width: 320px;
+    height: 190px;
+    border-radius: 8px;
+    background-color: #FA782D;
+    padding: 8px;
+    border: 2px solid black;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ham1 > .nome{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: var(--fonte-sla);
+    width: 300px;
+}
+
+.ham1 > .sobre{
+    text-align: justify;
+    font-family: var(--fonte-sla);
+    font-size: 0.9em;
+}
+
+.ham1 > img{
+    max-width: 140px;
+    /*margin: auto;
+    display: block;*/
+    padding-top: 12px;
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: black;
+}
+
+.ham1:hover{
+    background-color: #FB471E;
+    transition-duration: 0.4s;
+}
+
+@media (max-width: 500px){
+    .ham1{
+        height: 170px;
+        width: 250px;
+    }
+
+    .ham1 img{
+        width: 100px;
+    }
+}
