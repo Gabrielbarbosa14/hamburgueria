@@ -117,7 +117,7 @@ form{
     transition-duration: 0.2s;
 }
 
-@media (max-width: 400px){
+@media (max-width: 300px){
     #container{
         display: flex;
         flex-direction: column;
