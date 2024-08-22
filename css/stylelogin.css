@@ -22,7 +22,7 @@
 }
 
 body{
-    background-color: #FA782D;
+    background-color: var(--cor3);
     font-family: "roboto";
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 #parte-mensagem{
-    background-color: #FAE61E;
+    background-color: var(--cor2);
     height: 63vh;
     width: 280px;
     text-align: center;
@@ -48,7 +48,6 @@ body{
 
 #parte-mensagem h1{
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: 5px;
 }
 
