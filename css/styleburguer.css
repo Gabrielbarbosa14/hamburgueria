@@ -114,6 +114,16 @@ main h1{
     transition-duration: 0.4s;
 }
 
+footer{
+    border: 1px solid black;
+    font-family: var(--fonte-fraca);
+    background-color: #FB471E;
+}
+
+footer a{
+    color: white;
+
+}
 @media (max-width: 500px){
     .ham1{
         height: 170px;
