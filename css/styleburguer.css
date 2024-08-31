@@ -59,7 +59,7 @@ header #horario{
 main h1{
     text-align: center;
     font-family: var(--fonte-sla);
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .conteudo{

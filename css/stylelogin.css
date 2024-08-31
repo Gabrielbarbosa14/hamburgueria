@@ -101,6 +101,12 @@ form{
     cursor: pointer;
 }
 
+#enviar:hover{
+    background-color: #FAE61E;
+    color: black;
+    transition-duration: 0.2s;
+}
+
 #ja-tem-conta{
     position: absolute;
     bottom: 0;
@@ -127,9 +133,9 @@ form{
     #parte-mensagem{
         background-color: #FAE61E;
         /*height: 270px;*/
-        height: 47vh;
+        height: 45vh;
         /*width: 250px;*/
-        width: 78vw;
+        width: 77vw;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -140,9 +146,9 @@ form{
 
     #parte-login{
         /*width: 250px;*/
-        width: 78vw;
+        width: 77vw;
         /*height: 270px;*/
-        height: 47vh;
+        height: 45vh;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 8px;
     }
