@@ -21,10 +21,30 @@
 
 header{
     background-image: url(../imagens/fundo-header.jpg) ;
-    height: 400px;
+    height: 350px;
     background-position: center center;
     background-size: cover;
-    padding-top: 70px;
+}
+
+header nav{
+    list-style-type: none;
+    background-color: var(--cor1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+header #lista{
+    border: 1px solid black;
+    
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav h1{
+    color: white;
 }
 
 header img{
@@ -33,7 +53,7 @@ header img{
     margin: auto;
 }
 
-header h1{
+header > h1{
     text-align: center;
     color:var(--cor1);
     font-family: var(--fonte-forte);
